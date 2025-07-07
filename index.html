@@ -1,91 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Priya Thirumalaisamy | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Success</title>
+    <style>
+        body {
+            background: #d0f0c0;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .success-message {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            text-align: center;
+        }
+        .success-message h2 {
+            color: #4caf50;
+        }
+        .success-message p {
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-
-  <header>
-    <div class="container">
-      <img src="Priya-copy.jpg" alt="Priya's Photo" class="profile-img">
-      <h1>Priya Thirumalaisamy</h1>
-      <p>Computer Science Student | Developer | Motivational Speaker</p>
+    <div class="success-message">
+        <h2>Registration Successful!</h2>
+        <p>Welcome, {{ name }}! You have successfully registered.</p>
     </div>
-  </header>
-
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>I am a Computer Science student with a passion for coding, reading, leadership, and solving real-world problems. I also enjoy writing essays and motivating others through talks and actions.</p>
-    </div>
-  </section>
-
-  <section id="skills">
-    <div class="container">
-      <h2>Skills</h2>
-      <h3>Hard Skills</h3>
-      <ul class="skills-list">
-        <li>Python</li>
-        <li>Java</li>
-        <li>DBMS</li>
-        <li>C</li>
-        <li>HTML</li>
-        <li>NoSQL</li>
-        <li>MongoDB</li>
-        <li>Networking</li>
-        <li>Software Engineering</li>
-      </ul>
-      <h3>Soft Skills</h3>
-      <ul class="skills-list">
-        <li>Reading Books</li>
-        <li>Motivational Speaker</li>
-        <li>Essay Writer</li>
-        <li>Leadership</li>
-        <li>Problem Solving</li>
-        <li>Decision Making</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-card">
-        <h3>Hotel Management System</h3>
-        <p>A complete hotel booking and management system with user and admin panels.</p>
-        <p>Port No: [Mentioned Locally]</p>
-      </div>
-
-      <div class="project-card">
-        <h3>Quiz Portal</h3>
-        <p>Quiz platform that generates questions from user input and evaluates performance.</p>
-        <p>Port No: [Mentioned Locally]</p>
-      </div>
-
-      <div class="project-card">
-        <h3>Railway Booking System</h3>
-        <p>A mini system for booking and managing train tickets online.</p>
-        <p>Port No: [Mentioned Locally]</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Email: priyathirumalaisamy153@gmail.com</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/priya-t-cs-student-8a6463299" target="_blank">linkedin.com/in/priya-t</a></p>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Priya Thirumalaisamy. All rights reserved.</p>
-    </div>
-  </footer>
-
 </body>
 </html>
